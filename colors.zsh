@@ -1,0 +1,5 @@
+typeset -g C_ACCENT="#ffb59e"
+typeset -g C_DIR="#d8c68d"
+typeset -g C_GIT="#e7bdb1"
+typeset -g C_ERR="#ffb4ab"
+typeset -g C_MUTED="#a08c87"
