@@ -1,4 +1,4 @@
-# zsh-toolbox
+# dotzsh-tools
 
 A small zsh toolbox for your terminal: archive extraction with a progress bar, directory cleanup, everyday helpers, and a shared color palette.
 
@@ -14,16 +14,16 @@ A small zsh toolbox for your terminal: archive extraction with a progress bar, d
 ## Installation
 
 ```zsh
-git clone https://github.com/<your-user>/zsh-toolbox.git ~/.zsh-toolbox
+git clone https://github.com/<your-user>/dotzsh-tools.git ~/.config/zsh/dotzsh-tools
 ```
 
 Then add this to your `~/.zshrc`:
 
 ```zsh
-source ~/.zsh-toolbox/colors.zsh
-source ~/.zsh-toolbox/functions.zsh
-source ~/.zsh-toolbox/unwrap.zsh
-source ~/.zsh-toolbox/clean.zsh
+source ~/.config/zsh/dotzsh-tools/colors.zsh
+source ~/.config/zsh/dotzsh-tools/functions.zsh
+source ~/.config/zsh/dotzsh-tools/unwrap.zsh
+source ~/.config/zsh/dotzsh-tools/clean.zsh
 ```
 
 Reload your shell:
@@ -73,8 +73,8 @@ When finished, a summary shows the number of files deleted and the space reclaim
 
 ```zsh
 typeset -ga CLEAN_DIRS=(
-    " $ HOME/Pictures/Screenshots"
-    " $ HOME/Downloads"
+    "$HOME/Pictures/Screenshots"
+    "$HOME/Downloads"
 )
 ```
 
