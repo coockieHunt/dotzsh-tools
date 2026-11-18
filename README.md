@@ -11,12 +11,6 @@ A small zsh toolbox for your terminal: archive extraction with a progress bar, d
 | `functions.zsh` | Small helpers: `mkcd`, `bak`                                         |
 | `colors.zsh`    | Color palette (accent, directory, git, error, muted)                 |
 
-## Installation
-
-```zsh
-git clone https://github.com/<your-user>/dotzsh-tools.git ~/.config/zsh/dotzsh-tools
-```
-
 Then add this to your `~/.zshrc`:
 
 ```zsh
